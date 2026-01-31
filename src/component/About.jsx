@@ -21,7 +21,7 @@
 //       </Card.Body>
 //     </Card>
 //     <Card style={{ width: '18rem' }}>
-//       <Card.Img variant="top" src="public/assets/" />
+//       <Card.Img variant="top" src="assets/" />
 //       <Card.Body>
 //         <Card.Title>Our Vision</Card.Title>
 //         <Card.Text>
@@ -39,7 +39,7 @@
 //       </div>
 //       <div className="icon-wrapper pink" style={{display:"flex"}}>
 //         <Card style={{ width: '18rem', height:'28rem'}}>
-//       <Card.Img variant="top" style={{height:"100%"}} src={"public/assets/expert instructor.png" }/>
+//       <Card.Img variant="top" style={{height:"100%"}} src={"assets/expert instructor.png" }/>
 //       <Card.Body>
 //         <Card.Title>Expert Instructors</Card.Title>
 //         <Card.Text>
@@ -90,7 +90,7 @@
 //       </div>
 //       <div style={{display:"flex",backgroundColor:"lightblue"}}>
 //       <div>
-//         <img src={"public/assets/hybrid.svg"} alt="" />
+//         <img src={"assets/hybrid.svg"} alt="" />
 //         <p style={{width:"300px"}}>At Cloud Institution, your trusted tech education hub in Mahe. we provide personalized, hands-on training in AWS, Azure, Google Cloud, Java, Python, Terraform, Kubernetes, and more—blending real-world projects, expert mentorship, and certifications to launch your cloud career.</p>
 //       </div>
 //       <div>
@@ -246,7 +246,7 @@ const About = () => {
               onMouseLeave={(e) => e.currentTarget.style.transform = 'translateY(0)'}>
                 <Card.Img 
                   variant="top" 
-                  src="public/assets/mission.jpg"
+                  src="assets/mission.jpg"
                   style={{
                     height: '300px',
                     objectFit: 'cover'
@@ -284,7 +284,7 @@ const About = () => {
               onMouseLeave={(e) => e.currentTarget.style.transform = 'translateY(0)'}>
                 <Card.Img 
                   variant="top" 
-                  src="public/assets/vision.jpg"
+                  src="assets/vision.jpg"
                   style={{
                     height: '300px',
                     objectFit: 'cover'
@@ -355,7 +355,7 @@ const About = () => {
                     height: '250px',
                     objectFit: 'cover'
                   }} 
-                  src={"public/assets/expert instructor.png"}
+                  src={"assets/expert instructor.png"}
                 />
                 <Card.Body style={{ padding: '25px' }}>
                   <Card.Title style={{
@@ -388,7 +388,7 @@ const About = () => {
               onMouseLeave={(e) => e.currentTarget.style.transform = 'translateY(0)'}>
                 <Card.Img 
                   variant="top" 
-                  src="public/assets/flexible.webp"
+                  src="assets/flexible.webp"
                   style={{
                     height: '250px',
                     objectFit: 'cover'
@@ -425,7 +425,7 @@ const About = () => {
               onMouseLeave={(e) => e.currentTarget.style.transform = 'translateY(0)'}>
                 <Card.Img 
                   variant="top" 
-                  src="public/assets/support.webp"
+                  src="assets/support.webp"
                   style={{
                     height: '250px',
                     objectFit: 'cover'
@@ -554,7 +554,7 @@ const About = () => {
         <div style={styles.footerContainer}>
           {/* About */}
           <div style={{ ...styles.footerColumn, ...styles.aboutColumn }}>
-            <img src="public/assets/hybrid.svg" alt="Hybrid Cloud Logo" style={styles.footerLogo} />
+            <img src="assets/hybrid.svg" alt="Hybrid Cloud Logo" style={styles.footerLogo} />
             <p style={styles.footerDescription}>Hybrid Cloud offers hands-on training in AWS, Azure, Google Cloud, Java, Python, Terraform, Kubernetes, and more.</p>
           </div>
 
@@ -602,9 +602,9 @@ const About = () => {
             <div style={styles.contactInfo}>
               <h4 style={styles.locationName}>Mahe</h4>
               {[
-                { icon: 'public/assets/icons8-location-96.png', text: 'Anandam realty, palloor, Mahe - 673310' },
-                { icon: 'public/assets/icons8-email-24.png', text: 'info@hybridcloud.com' },
-                { icon: 'public/assets/icons8-phone-50.png', text: '+91 9344613129' },
+                { icon: 'assets/icons8-location-96.png', text: 'Anandam realty, palloor, Mahe - 673310' },
+                { icon: 'assets/icons8-email-24.png', text: 'info@hybridcloud.com' },
+                { icon: 'assets/icons8-phone-50.png', text: '+91 9344613129' },
               ].map((item, idx) => (
                 <div
                   key={idx}

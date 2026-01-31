@@ -10,7 +10,7 @@
 //         <div style={{display:"flex"}}>
 //         <p style={{width:"600px"}}>Are you ready to accelerate your career as a Cloud Architect?
 //             At Cloud Institution, we offer the best AWS Solution Architect Training designed to help beginners and professionals master AWS cloud architecture, design principles, and deployment strategies.</p>
-//             <img src="public/assets/aws1.jpg" alt="" style={{height:"500px",borderRadius:"8px"}}/>
+//             <img src="assets/aws1.jpg" alt="" style={{height:"500px",borderRadius:"8px"}}/>
 //             </div>
 //       </div>
 //       <div>
@@ -469,7 +469,7 @@ const AwdDetails = () => {
         </div>
         <div style={styles.introImage}>
           <img 
-            src="public/assets/aws1.jpg" 
+            src="assets/aws1.jpg" 
             alt="AWS Cloud Training" 
             style={styles.awsImage}
             onMouseEnter={(e) => e.target.style.transform = 'scale(1.05)'}
@@ -579,7 +579,7 @@ const AwdDetails = () => {
         <div style={styles.footerContainer}>
           {/* About Column */}
           <div style={{ ...styles.footerColumn, ...styles.aboutColumn }}>
-            <img src="public/assets/hybrid.svg" alt="Hybrid Cloud Logo" style={styles.footerLogo} />
+            <img src="assets/hybrid.svg" alt="Hybrid Cloud Logo" style={styles.footerLogo} />
             <p style={styles.footerDescription}>
               At Hybrid Cloud, your trusted tech education hub in Mahe, we provide personalized, 
               hands-on training in AWS, Azure, Google Cloud, Java, Python, Terraform, Kubernetes, 
@@ -678,7 +678,7 @@ const AwdDetails = () => {
                 onMouseEnter={() => setHoveredContact(0)}
                 onMouseLeave={() => setHoveredContact(null)}
               >
-                <img src="public/assets/icons8-location-96.png" alt="Location" style={styles.contactIcon} />
+                <img src="assets/icons8-location-96.png" alt="Location" style={styles.contactIcon} />
                 <p style={styles.contactText}>Anandam realty, palloor, Mahe - 673310</p>
               </div>
 
@@ -692,7 +692,7 @@ const AwdDetails = () => {
                 onMouseEnter={() => setHoveredContact(1)}
                 onMouseLeave={() => setHoveredContact(null)}
               >
-                <img src="public/assets/icons8-email-24.png" alt="Email" style={styles.contactIcon} />
+                <img src="assets/icons8-email-24.png" alt="Email" style={styles.contactIcon} />
                 <p style={styles.contactText}>info@hybridcloud.com</p>
               </div>
 
@@ -706,7 +706,7 @@ const AwdDetails = () => {
                 onMouseEnter={() => setHoveredContact(2)}
                 onMouseLeave={() => setHoveredContact(null)}
               >
-                <img src="public/assets/icons8-phone-50.png" alt="Phone" style={styles.contactIcon} />
+                <img src="assets/icons8-phone-50.png" alt="Phone" style={styles.contactIcon} />
                 <p style={styles.contactText}>+91 9344613129</p>
               </div>
             </div>

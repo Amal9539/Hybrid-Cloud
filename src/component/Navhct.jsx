@@ -40,7 +40,7 @@ const Navhct = () => {
       <Container>
         <Navbar.Brand href="#home" className="d-flex align-items-center">
           <img
-            src="public/assets/hybrid.svg"
+            src="assets/hybrid.svg"
             alt=""
             height="32"
             className="me-2"

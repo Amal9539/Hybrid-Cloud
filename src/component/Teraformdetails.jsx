@@ -7,7 +7,7 @@
 //         <h2>Terraform Certification Training</h2>
 //         <div style={{display:"flex"}}>
 //             <p>Learn foundational Terraform skills with Expertise. Jump-start your Infrastructure as Code (IaC) journey and build confidence through our Terraform Training Essentials course, taught by experienced trainers. This dynamic training is available both online and offline</p>
-//             <img src="public/assets/tera1.webp" alt="" style={{height:"300px",width:"300px"}} />
+//             <img src="assets/tera1.webp" alt="" style={{height:"300px",width:"300px"}} />
 //         </div>
 //       </div>
 //       <div>
@@ -540,7 +540,7 @@ const Teraformdetails = () => {
               </p>
             </div>
             <img 
-              src="public/assets/tera1.webp" 
+              src="assets/tera1.webp" 
               alt="Terraform" 
               style={styles.descriptionImage}
             />
@@ -633,7 +633,7 @@ const Teraformdetails = () => {
         <div style={styles.footerContainer}>
           {/* About Column */}
           <div style={styles.footerColumn}>
-            <img src="public/assets/hybrid.svg" alt="Hybrid Cloud Logo" style={styles.footerLogo} />
+            <img src="assets/hybrid.svg" alt="Hybrid Cloud Logo" style={styles.footerLogo} />
             <p style={styles.footerDescription}>
               At Hybrid Cloud, your trusted tech education hub in Mahe, we provide personalized, 
               hands-on training in AWS, Azure, Google Cloud, Java, Python, Terraform, Kubernetes, 
@@ -732,7 +732,7 @@ const Teraformdetails = () => {
                 onMouseEnter={() => setHoveredContact(0)}
                 onMouseLeave={() => setHoveredContact(null)}
               >
-                <img src="public/assets/icons8-location-96.png" alt="Location" style={styles.contactIcon} />
+                <img src="assets/icons8-location-96.png" alt="Location" style={styles.contactIcon} />
                 <p style={styles.contactText}>Anandam realty, palloor, Mahe - 673310</p>
               </div>
 
@@ -746,7 +746,7 @@ const Teraformdetails = () => {
                 onMouseEnter={() => setHoveredContact(1)}
                 onMouseLeave={() => setHoveredContact(null)}
               >
-                <img src="public/assets/icons8-email-24.png" alt="Email" style={styles.contactIcon} />
+                <img src="assets/icons8-email-24.png" alt="Email" style={styles.contactIcon} />
                 <p style={styles.contactText}>info@hybridcloud.com</p>
               </div>
 
@@ -760,7 +760,7 @@ const Teraformdetails = () => {
                 onMouseEnter={() => setHoveredContact(2)}
                 onMouseLeave={() => setHoveredContact(null)}
               >
-                <img src="public/assets/icons8-phone-50.png" alt="Phone" style={styles.contactIcon} />
+                <img src="assets/icons8-phone-50.png" alt="Phone" style={styles.contactIcon} />
                 <p style={styles.contactText}>+91 9344613129</p>
               </div>
             </div>

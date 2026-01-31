@@ -8,7 +8,7 @@
 //       <h2 style={{textAlign:"center"}}>Guaranteed Career Advancement Training Programs</h2>
 //       <div className='row'>
 //           <Card style={{ width: '18rem', marginLeft:"40px"}}>
-//       <Card.Img variant="top" src="public/assets/ma.webp" style={{height:"170px"}} />
+//       <Card.Img variant="top" src="assets/ma.webp" style={{height:"170px"}} />
 //       <Card.Body>
 //         <Card.Title>Azure Certificate Training</Card.Title>
 //         <Card.Text>
@@ -23,7 +23,7 @@
 
 
 //     <Card style={{ width: '18rem' }}>
-//       <Card.Img variant="top" src="public/assets/aws.webp" style={{height:"170px"}} />
+//       <Card.Img variant="top" src="assets/aws.webp" style={{height:"170px"}} />
 //       <Card.Body>
 //         <Card.Title>AWS Certificate Training</Card.Title>
 //         <Card.Text>
@@ -36,7 +36,7 @@
 //       </Card.Body>
 //     </Card>
 //     <Card style={{ width: '18rem' }}>
-//       <Card.Img variant="top" src="public/assets/gcloud.webp" style={{height:"170px"}}/>
+//       <Card.Img variant="top" src="assets/gcloud.webp" style={{height:"170px"}}/>
 //       <Card.Body>
 //         <Card.Title> Google Cloud Platform Training</Card.Title>
 
@@ -50,7 +50,7 @@
 //       </Card.Body>
 //     </Card>
 //     <Card style={{ width: '18rem' }}>
-//       <Card.Img variant="top" src="public/assets/java.webp" style={{height:"170px"}} />
+//       <Card.Img variant="top" src="assets/java.webp" style={{height:"170px"}} />
 //       <Card.Body>
 //         <Card.Title>Java Full-Stack Training</Card.Title>
 //         <Card.Text>
@@ -63,7 +63,7 @@
 //       </Card.Body>
 //     </Card>
 //     <Card style={{ width: '18rem' }}>
-//       <Card.Img variant="top" src="public/assets/python1.webp" style={{height:"170px"}} />
+//       <Card.Img variant="top" src="assets/python1.webp" style={{height:"170px"}} />
 //       <Card.Body>
 //         <Card.Title>Python Full-Stack Training</Card.Title>
 //         <Card.Text>
@@ -76,7 +76,7 @@
 //       </Card.Body>
 //     </Card>
 //     <Card style={{ width: '18rem' }}>
-//       <Card.Img variant="top" src="public/assets/devopss.webp" style={{height:"170px"}} />
+//       <Card.Img variant="top" src="assets/devopss.webp" style={{height:"170px"}} />
 //       <Card.Body>
 //         <Card.Title>DevOps Training</Card.Title>
 //         <Card.Text>
@@ -89,7 +89,7 @@
 //       </Card.Body>
 //     </Card>
 //     <Card style={{ width: '18rem' }}>
-//       <Card.Img variant="top" src="public/assets/tera.png" style={{height:"170px"}} />
+//       <Card.Img variant="top" src="assets/tera.png" style={{height:"170px"}} />
 //       <Card.Body>
 //         <Card.Title>Terraform Training</Card.Title>
 //         <Card.Text>
@@ -107,7 +107,7 @@
 
 
 //     <Card style={{ width: '18rem' }}>
-//       <Card.Img variant="top" src="public/assets/kuber.png" />
+//       <Card.Img variant="top" src="assets/kuber.png" />
 //       <Card.Body>
 //         <Card.Title>Kubernetes Training</Card.Title>
 //         <Card.Text>
@@ -126,7 +126,7 @@
 
 //       <div style={{display:"flex",backgroundColor:"lightblue"}}>
 //       <div>
-//         <img src={"public/assets/hybrid.svg"} alt="" />
+//         <img src={"assets/hybrid.svg"} alt="" />
 //         <p style={{width:"300px"}}>At Hybrid Cloud , your trusted tech education hub in Mahe. we provide personalized, hands-on training in AWS, Azure, Google Cloud, Java, Python, Terraform, Kubernetes, and more—blending real-world projects, expert mentorship, and certifications to launch your cloud career.</p>
 //       </div>
 //       <div>
@@ -154,15 +154,15 @@
 //         <div>
 //             <h4>Mahe</h4>
 //             <div style={{display:"flex"}}>
-//             <img src="public/assets/icons8-location-96.png" style={{height:"30px"}} alt="" />
+//             <img src="assets/icons8-location-96.png" style={{height:"30px"}} alt="" />
 //             <p style={{marginLeft:"20px"}}>Anandam realty, palloor, Mahe - 673310</p>
 //             </div>
 //              <div style={{display:"flex"}}>
-//             <img src="public/assets/icons8-email-24.png" style={{height:"30px"}} alt="" />
+//             <img src="assets/icons8-email-24.png" style={{height:"30px"}} alt="" />
 //             <p style={{marginLeft:"20px"}}>Anandam realty, palloor, Mahe - 673310</p>
 //             </div>
 //             <div style={{display:"flex"}}>
-//             <img src="public/assets/icons8-phone-50.png" style={{height:"30px"}} alt="" />
+//             <img src="assets/icons8-phone-50.png" style={{height:"30px"}} alt="" />
 //             <p style={{marginLeft:"20px"}}> +91 9344613129</p>
 //             </div>
 //         </div>
@@ -188,49 +188,49 @@ const Courses = () => {
     {
       title: 'Azure Certificate Training',
       duration: '50hr',
-      image: 'public/assets/ma.webp',
+      image: 'assets/ma.webp',
       link: '/azure'
     },
     {
       title: 'AWS Certificate Training',
       duration: '50hr',
-      image: 'public/assets/aws.webp',
+      image: 'assets/aws.webp',
       link: '/amazone'
     },
     {
       title: 'Google Cloud Platform Training',
       duration: '50hr',
-      image: 'public/assets/gcloud.webp',
+      image: 'assets/gcloud.webp',
       link: '/google'
     },
     {
       title: 'Java Full-Stack Training',
       duration: '100hr',
-      image: 'public/assets/java.webp',
+      image: 'assets/java.webp',
       link: '/java'
     },
     {
       title: 'Python Full-Stack Training',
       duration: '100hr',
-      image: 'public/assets/python1.webp',
+      image: 'assets/python1.webp',
       link: '/python'
     },
     {
       title: 'DevOps Training',
       duration: '45hr',
-      image: 'public/assets/devopss.webp',
+      image: 'assets/devopss.webp',
       link: '/devops'
     },
     {
       title: 'Terraform Training',
       duration: '30hr',
-      image: 'public/assets/tera.png',
+      image: 'assets/tera.png',
       link: '/teraform'
     },
     {
       title: 'Kubernetes Training',
       duration: '45hr',
-      image: 'public/assets/kuber.png',
+      image: 'assets/kuber.png',
       link: '/kuber'
     }
   ];
@@ -492,7 +492,7 @@ const Courses = () => {
       <div style={styles.footerContainer}>
         {/* About Column */}
         <div style={{ ...styles.footerColumn, ...styles.aboutColumn }}>
-          <img src="public/assets/hybrid.svg" alt="Hybrid Cloud Logo" style={styles.footerLogo} />
+          <img src="assets/hybrid.svg" alt="Hybrid Cloud Logo" style={styles.footerLogo} />
           <p style={styles.footerDescription}>
             Hybrid Cloud offers hands-on training in AWS, Azure, Google Cloud, Java, Python, Terraform, Kubernetes, and more.
           </p>
@@ -558,7 +558,7 @@ const Courses = () => {
               onMouseEnter={() => setHoveredContact(0)}
               onMouseLeave={() => setHoveredContact(null)}
             >
-              <img src="public/assets/icons8-location-96.png" alt="Location" style={styles.contactIcon} />
+              <img src="assets/icons8-location-96.png" alt="Location" style={styles.contactIcon} />
               <p style={styles.contactText}>Anandam realty, palloor, Mahe - 673310</p>
             </div>
             {/* Email */}
@@ -567,7 +567,7 @@ const Courses = () => {
               onMouseEnter={() => setHoveredContact(1)}
               onMouseLeave={() => setHoveredContact(null)}
             >
-              <img src="public/assets/icons8-email-24.png" alt="Email" style={styles.contactIcon} />
+              <img src="assets/icons8-email-24.png" alt="Email" style={styles.contactIcon} />
               <p style={styles.contactText}>info@hybridcloud.com</p>
             </div>
             {/* Phone */}
@@ -576,7 +576,7 @@ const Courses = () => {
               onMouseEnter={() => setHoveredContact(2)}
               onMouseLeave={() => setHoveredContact(null)}
             >
-              <img src="public/assets/icons8-phone-50.png" alt="Phone" style={styles.contactIcon} />
+              <img src="assets/icons8-phone-50.png" alt="Phone" style={styles.contactIcon} />
               <p style={styles.contactText}>+91 9344613129</p>
             </div>
           </div>

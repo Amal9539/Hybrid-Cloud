@@ -87,7 +87,7 @@ const Certificationhct = () => {
               }}
             >
               <img
-                src={"public/assets/certification.jpg"}
+                src={"assets/certification.jpg"}
                 alt="Certificate"
                 className="img-fluid"
                 style={{ maxHeight: '399px', maxWidth:"800px", background: '#fff' ,borderRadius:"8px",border:"2px solid lightblue"}}
