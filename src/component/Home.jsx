@@ -17,7 +17,7 @@
 //   >
 //     <Carousel.Item>
 //       <img
-//         src="src/assets/assure.png"
+//         src="public/assets/assure.png"
 //         style={{
 //           width: "100%",
 //           height: "700px",
@@ -29,7 +29,7 @@
 
 //     <Carousel.Item>
 //       <img
-//         src="src/assets/aswcloudtraining.webp"
+//         src="public/assets/aswcloudtraining.webp"
 //         style={{
 //           width: "100%",
 //           height: "700px",
@@ -41,7 +41,7 @@
 
 //     <Carousel.Item>
 //       <img
-//         src="src/assets/googlecloud.webp"
+//         src="public/assets/googlecloud.webp"
 //         style={{
 //           width: "100%",
 //           height: "700px",
@@ -53,7 +53,7 @@
 
 //     <Carousel.Item>
 //       <img
-//         src="src/assets/javafullstack.png"
+//         src="public/assets/javafullstack.png"
 //         style={{
 //           width: "100%",
 //           height: "700px",
@@ -64,19 +64,7 @@
 //     </Carousel.Item>
 //     <Carousel.Item>
 //       <img
-//         src="src/assets/pythoncurl.webp"
-//         style={{
-//           width: "100%",
-//           height: "700px",
-//           objectFit: "cover",
-//         }}
-//         alt=""
-//       />
-//     </Carousel.Item>
-
-//     <Carousel.Item>
-//       <img
-//         src="src/assets/teraform.webp"
+//         src="public/assets/pythoncurl.webp"
 //         style={{
 //           width: "100%",
 //           height: "700px",
@@ -88,7 +76,7 @@
 
 //     <Carousel.Item>
 //       <img
-//         src="src/assets/kubernets.webp"
+//         src="public/assets/teraform.webp"
 //         style={{
 //           width: "100%",
 //           height: "700px",
@@ -100,7 +88,19 @@
 
 //     <Carousel.Item>
 //       <img
-//         src="src/assets/devops.webp"
+//         src="public/assets/kubernets.webp"
+//         style={{
+//           width: "100%",
+//           height: "700px",
+//           objectFit: "cover",
+//         }}
+//         alt=""
+//       />
+//     </Carousel.Item>
+
+//     <Carousel.Item>
+//       <img
+//         src="public/assets/devops.webp"
 //         style={{
 //           width: "100%",
 //           height: "700px",
@@ -287,7 +287,7 @@
 //                 padding: '20px'
 //               }}>
 //                 <img
-//                   src={"src/assets/certification.jpg"}
+//                   src={"public/assets/certification.jpg"}
 //                   alt="Certificate"
 //                   className="img-fluid"
 //                   style={{maxHeight: '450px', maxWidth: '100%',background: '#fff',borderRadius: '20px',marginTop:"60px"}}
@@ -310,7 +310,7 @@
 //             <Col md={3} className="mb-4 mb-md-0">
 //               <div>
 //                 <img 
-//                   src={"src/assets/hybrid.svg"} 
+//                   src={"public/assets/hybrid.svg"} 
 //                   alt="Cloud Institution" 
 //                   style={{
 //                     height: '50px',
@@ -637,7 +637,7 @@
                    
 //                   }}>
 //                     <img 
-//                       src="src/assets/icons8-location-96.png" 
+//                       src="public/assets/icons8-location-96.png" 
 //                       style={{height: '22px', width: '24px', flexShrink: 0}} 
 //                       alt="Location" 
 //                     />
@@ -658,7 +658,7 @@
 //                     alignItems: 'center'
 //                   }}>
 //                     <img 
-//                       src="src/assets/icons8-email-24.png" 
+//                       src="public/assets/icons8-email-24.png" 
 //                       style={{height: '24px', width: '24px', flexShrink: 0}} 
 //                       alt="Email" 
 //                     />
@@ -679,7 +679,7 @@
 //                     alignItems: 'center'
 //                   }}>
 //                     <img 
-//                       src="src/assets/icons8-phone-50.png" 
+//                       src="public/assets/icons8-phone-50.png" 
 //                       style={{height: '24px', width: '24px', flexShrink: 0}} 
 //                       alt="Phone" 
 //                     />
@@ -1081,28 +1081,28 @@ const Home = () => {
       <div style={styles.heroSection}>
         <Carousel interval={3000} pause={false} controls={false} indicators={true}>
           <Carousel.Item>
-            <img src="src/assets/assure.png" style={styles.carouselImage} alt="Training" />
+            <img src="public/assets/assure.png" style={styles.carouselImage} alt="Training" />
           </Carousel.Item>
           <Carousel.Item>
-            <img src="src/assets/aswcloudtraining.webp" style={styles.carouselImage} alt="AWS" />
+            <img src="public/assets/aswcloudtraining.webp" style={styles.carouselImage} alt="AWS" />
           </Carousel.Item>
           <Carousel.Item>
-            <img src="src/assets/googlecloud.webp" style={styles.carouselImage} alt="Google Cloud" />
+            <img src="public/assets/googlecloud.webp" style={styles.carouselImage} alt="Google Cloud" />
           </Carousel.Item>
           <Carousel.Item>
-            <img src="src/assets/javafullstack.png" style={styles.carouselImage} alt="Java" />
+            <img src="public/assets/javafullstack.png" style={styles.carouselImage} alt="Java" />
           </Carousel.Item>
           <Carousel.Item>
-            <img src="src/assets/pythoncurl.webp" style={styles.carouselImage} alt="Python" />
+            <img src="public/assets/pythoncurl.webp" style={styles.carouselImage} alt="Python" />
           </Carousel.Item>
           <Carousel.Item>
-            <img src="src/assets/teraform.webp" style={styles.carouselImage} alt="Terraform" />
+            <img src="public/assets/teraform.webp" style={styles.carouselImage} alt="Terraform" />
           </Carousel.Item>
           <Carousel.Item>
-            <img src="src/assets/kubernets.webp" style={styles.carouselImage} alt="Kubernetes" />
+            <img src="public/assets/kubernets.webp" style={styles.carouselImage} alt="Kubernetes" />
           </Carousel.Item>
           <Carousel.Item>
-            <img src="src/assets/devops.webp" style={styles.carouselImage} alt="DevOps" />
+            <img src="public/assets/devops.webp" style={styles.carouselImage} alt="DevOps" />
           </Carousel.Item>
         </Carousel>
       </div>
@@ -1175,7 +1175,7 @@ const Home = () => {
         <div style={styles.footerContainer}>
           {/* About */}
           <div style={styles.footerColumn}>
-            <img src="src/assets/hybrid.svg" alt="Hybrid Cloud Logo" style={styles.footerLogo} />
+            <img src="public/assets/hybrid.svg" alt="Hybrid Cloud Logo" style={styles.footerLogo} />
             <p style={styles.footerDescription}>
               Hybrid Cloud offers hands-on training in AWS, Azure, Google Cloud, Java, Python, Terraform, Kubernetes, and more.
             </p>
@@ -1225,15 +1225,15 @@ const Home = () => {
             <div>
               <h4 style={{ color: '#f59e0b', fontSize: '1.1rem', marginBottom: '15px' }}>Mahe</h4>
               <div style={styles.contactItem}>
-                <img src="src/assets/icons8-location-96.png" style={styles.contactIcon} alt="" />
+                <img src="public/assets/icons8-location-96.png" style={styles.contactIcon} alt="" />
                 <p style={styles.contactText}>Anandam realty, palloor, Mahe - 673310</p>
               </div>
               <div style={styles.contactItem}>
-                <img src="src/assets/icons8-email-24.png" style={styles.contactIcon} alt="" />
+                <img src="public/assets/icons8-email-24.png" style={styles.contactIcon} alt="" />
                 <p style={styles.contactText}>info@hybridcloud.com</p>
               </div>
               <div style={styles.contactItem}>
-                <img src="src/assets/icons8-phone-50.png" style={styles.contactIcon} alt="" />
+                <img src="public/assets/icons8-phone-50.png" style={styles.contactIcon} alt="" />
                 <p style={styles.contactText}>+91 9344613129</p>
               </div>
             </div>

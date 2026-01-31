@@ -8,7 +8,7 @@
 //         <p style={{width:"300px"}}>Learn foundational Java skills from Advanced  Training</p><br/><br/>
 //         <div style={{display:"flex"}}>
 //         <p style={{width:"300px"}}>Jump-start your Java Full Stack  journey and build confidence with our  Essentials course.   Taught by experienced  trainers,this dynamic Online Java full-stack training </p>
-//             <img src="src/assets/javafull.webp" alt="" style={{height:"300px",width:"300px"}}/>
+//             <img src="public/assets/javafull.webp" alt="" style={{height:"300px",width:"300px"}}/>
 //             </div>
 //       </div>
 //       <div>
@@ -380,7 +380,7 @@ const JavaDetails = () => {
               }}></div>
               
               <img 
-                src="src/assets/javafull.webp" 
+                src="public/assets/javafull.webp" 
                 alt="Java Full Stack" 
                 style={{
                   position: 'relative',
@@ -682,7 +682,7 @@ const JavaDetails = () => {
         <div style={footerStyles.footerContainer}>
           {/* About Column */}
           <div style={{ ...footerStyles.footerColumn, ...footerStyles.aboutColumn }}>
-            <img src="src/assets/hybrid.svg" alt="Hybrid Cloud Logo" style={footerStyles.footerLogo} />
+            <img src="public/assets/hybrid.svg" alt="Hybrid Cloud Logo" style={footerStyles.footerLogo} />
             <p style={footerStyles.footerDescription}>
               At Hybrid Cloud, your trusted tech education hub in Mahe, we provide personalized, 
               hands-on training in AWS, Azure, Google Cloud, Java, Python, Terraform, Kubernetes, 
@@ -779,7 +779,7 @@ const JavaDetails = () => {
                 }
                 onMouseLeave={() => setHoveredContact(null)}
               >
-                <img src="src/assets/icons8-location-96.png" alt="Location" style={footerStyles.contactIcon} />
+                <img src="public/assets/icons8-location-96.png" alt="Location" style={footerStyles.contactIcon} />
                 <p style={footerStyles.contactText}>Anandam realty, palloor, Mahe - 673310</p>
               </div>
 
@@ -792,7 +792,7 @@ const JavaDetails = () => {
                 onMouseEnter={() => setHoveredContact(1)}
                 onMouseLeave={() => setHoveredContact(null)}
               >
-                <img src="src/assets/icons8-email-24.png" alt="Email" style={footerStyles.contactIcon} />
+                <img src="public/assets/icons8-email-24.png" alt="Email" style={footerStyles.contactIcon} />
                 <p style={footerStyles.contactText}>info@hybridcloud.com</p>
               </div>
 
@@ -805,7 +805,7 @@ const JavaDetails = () => {
                 onMouseEnter={() => setHoveredContact(2)}
                 onMouseLeave={() => setHoveredContact(null)}
               >
-                <img src="src/assets/icons8-phone-50.png" alt="Phone" style={footerStyles.contactIcon} />
+                <img src="public/assets/icons8-phone-50.png" alt="Phone" style={footerStyles.contactIcon} />
                 <p style={footerStyles.contactText}>+91 9344613129</p>
               </div>
             </div>

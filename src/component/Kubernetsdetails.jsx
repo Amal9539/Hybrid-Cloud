@@ -8,7 +8,7 @@
 //       </div>
 //       <div style={{display:"flex"}}> 
 //         <p>Learn foundational Kubernetes skills with Expertise. Jump-start your Kubernetes journey and build confidence through our Training Essentials course, taught by experienced trainers. This dynamic training is available both online and offline</p>
-//         <img src="src/assets/kuber1.webp" alt="" style={{height:"300px",width:"300px"}} />
+//         <img src="public/assets/kuber1.webp" alt="" style={{height:"300px",width:"300px"}} />
 //       </div>
 //       <div>
 //         <h3>Most Common Kubernetes Services</h3>
@@ -558,7 +558,7 @@ const KubernetesDetails = () => {
           }}>
             {/* About Column */}
             <div style={{ padding: '0 20px' }}>
-              <img src="src/assets/hybrid.svg" alt="Hybrid Cloud Logo" style={{
+              <img src="public/assets/hybrid.svg" alt="Hybrid Cloud Logo" style={{
                 maxWidth: '180px',
                 marginBottom: '20px',
                 filter: 'brightness(0) invert(1)',
@@ -704,7 +704,7 @@ const KubernetesDetails = () => {
                 }}>Mahe</h4>
                 
                 <div style={{ display: 'flex', alignItems: 'flex-start', gap: '15px' }}>
-                  <img src="src/assets/icons8-location-96.png" alt="Location" style={{
+                  <img src="public/assets/icons8-location-96.png" alt="Location" style={{
                     width: '24px',
                     height: '24px',
                     filter: 'brightness(0) invert(1)',
@@ -718,7 +718,7 @@ const KubernetesDetails = () => {
                 </div>
 
                 <div style={{ display: 'flex', alignItems: 'flex-start', gap: '15px' }}>
-                  <img src="src/assets/icons8-email-24.png" alt="Email" style={{
+                  <img src="public/assets/icons8-email-24.png" alt="Email" style={{
                     width: '24px',
                     height: '24px',
                     filter: 'brightness(0) invert(1)',
@@ -732,7 +732,7 @@ const KubernetesDetails = () => {
                 </div>
 
                 <div style={{ display: 'flex', alignItems: 'flex-start', gap: '15px' }}>
-                  <img src="src/assets/icons8-phone-50.png" alt="Phone" style={{
+                  <img src="public/assets/icons8-phone-50.png" alt="Phone" style={{
                     width: '24px',
                     height: '24px',
                     filter: 'brightness(0) invert(1)',

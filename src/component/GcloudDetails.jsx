@@ -7,7 +7,7 @@
 //         <h3>Google Cloud Platform Certification Training</h3>
 //         <div style={{display:"flex"}}>
 //       <p style={{width:"600px"}}>Learn foundational Google Cloud skills from expert trainers in our one-day Google Cloud Essentials course. Available online and offline, this dynamic training covers core services including Compute Engine, Cloud Storage, VPC networking, IAM, BigQuery, and Vertex AI—helping you build confidence to deploy, manage, and scale applications on GCP</p>
-//       <img src="src/assets/googlec.avif" alt="" style={{height:"300px",width:"300px"}} />
+//       <img src="public/assets/googlec.avif" alt="" style={{height:"300px",width:"300px"}} />
 //       </div>
 //       </div>
 //       <div>
@@ -527,7 +527,7 @@ const GcloudDetails = () => {
                 animation: 'morphing 8s ease-in-out infinite'
               }}></div>
               <img 
-                src="src/assets/googlec.avif" 
+                src="public/assets/googlec.avif" 
                 alt="Google Cloud Platform" 
                 style={{
                   position: 'relative',
@@ -809,7 +809,7 @@ const GcloudDetails = () => {
         <div style={footerStyles.footerContainer}>
           {/* About Column */}
           <div style={{ ...footerStyles.footerColumn, ...footerStyles.aboutColumn }}>
-            <img src="src/assets/hybrid.svg" alt="Hybrid Cloud Logo" style={footerStyles.footerLogo} />
+            <img src="public/assets/hybrid.svg" alt="Hybrid Cloud Logo" style={footerStyles.footerLogo} />
             <p style={footerStyles.footerDescription}>
               At Hybrid Cloud, your trusted tech education hub in Mahe, we provide personalized, 
               hands-on training in AWS, Azure, Google Cloud, Java, Python, Terraform, Kubernetes, 
@@ -906,7 +906,7 @@ const GcloudDetails = () => {
                 onMouseEnter={() => setHoveredContact(0)}
                 onMouseLeave={() => setHoveredContact(null)}
               >
-                <img src="src/assets/icons8-location-96.png" alt="Location" style={footerStyles.contactIcon} />
+                <img src="public/assets/icons8-location-96.png" alt="Location" style={footerStyles.contactIcon} />
                 <p style={footerStyles.contactText}>Anandam realty, palloor, Mahe - 673310</p>
               </div>
 
@@ -919,7 +919,7 @@ const GcloudDetails = () => {
                 onMouseEnter={() => setHoveredContact(1)}
                 onMouseLeave={() => setHoveredContact(null)}
               >
-                <img src="src/assets/icons8-email-24.png" alt="Email" style={footerStyles.contactIcon} />
+                <img src="public/assets/icons8-email-24.png" alt="Email" style={footerStyles.contactIcon} />
                 <p style={footerStyles.contactText}>info@hybridcloud.com</p>
               </div>
 
@@ -932,7 +932,7 @@ const GcloudDetails = () => {
                 onMouseEnter={() => setHoveredContact(2)}
                 onMouseLeave={() => setHoveredContact(null)}
               >
-                <img src="src/assets/icons8-phone-50.png" alt="Phone" style={footerStyles.contactIcon} />
+                <img src="public/assets/icons8-phone-50.png" alt="Phone" style={footerStyles.contactIcon} />
                 <p style={footerStyles.contactText}>+91 9344613129</p>
               </div>
             </div>

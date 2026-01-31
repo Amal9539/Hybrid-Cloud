@@ -13,7 +13,7 @@
 //             Azure  Cloud Practitioner Essentials course. Taught by experienced trainers,
 //             this dynamic online course covers crucial Azure topics, including cloud concepts,
 //             architectural best practices, and basic Azure services, preparing you for the Azure Global Certificate </p>
-//             <img src="src/assets/azure.webp" alt="" style={{borderRadius:"15px"}}/>
+//             <img src="public/assets/azure.webp" alt="" style={{borderRadius:"15px"}}/>
 //       </div>
 //       <div>
 //         <h3>Most Common Azure Cloud Services</h3>
@@ -476,7 +476,7 @@ const MADetails = () => {
         </div>
         <div style={styles.introImage}>
           <img 
-            src="src/assets/azure.webp" 
+            src="public/assets/azure.webp" 
             alt="Azure Cloud Training" 
             style={styles.azureImage}
             onMouseEnter={(e) => e.target.style.transform = 'scale(1.05)'}
@@ -586,7 +586,7 @@ const MADetails = () => {
         <div style={styles.footerContainer}>
           {/* About Column */}
           <div style={{ ...styles.footerColumn, ...styles.aboutColumn }}>
-            <img src="src/assets/hybrid.svg" alt="Hybrid Cloud Logo" style={styles.footerLogo} />
+            <img src="public/assets/hybrid.svg" alt="Hybrid Cloud Logo" style={styles.footerLogo} />
             <p style={styles.footerDescription}>
               At Hybrid Cloud, your trusted tech education hub in Mahe, we provide personalized, 
               hands-on training in AWS, Azure, Google Cloud, Java, Python, Terraform, Kubernetes, 
@@ -682,7 +682,7 @@ const MADetails = () => {
                 }
                 onMouseLeave={() => setHoveredContact(null)}
               >
-                <img src="src/assets/icons8-location-96.png" alt="Location" style={styles.contactIcon} />
+                <img src="public/assets/icons8-location-96.png" alt="Location" style={styles.contactIcon} />
                 <p style={styles.contactText}>Anandam realty, palloor, Mahe - 673310</p>
               </div>
 
@@ -696,7 +696,7 @@ const MADetails = () => {
                 onMouseEnter={() => setHoveredContact(1)}
                 onMouseLeave={() => setHoveredContact(null)}
               >
-                <img src="src/assets/icons8-email-24.png" alt="Email" style={styles.contactIcon} />
+                <img src="public/assets/icons8-email-24.png" alt="Email" style={styles.contactIcon} />
                 <p style={styles.contactText}>info@hybridcloud.com</p>
               </div>
 
@@ -710,7 +710,7 @@ const MADetails = () => {
                 onMouseEnter={() => setHoveredContact(2)}
                 onMouseLeave={() => setHoveredContact(null)}
               >
-                <img src="src/assets/icons8-phone-50.png" alt="Phone" style={styles.contactIcon} />
+                <img src="public/assets/icons8-phone-50.png" alt="Phone" style={styles.contactIcon} />
                 <p style={styles.contactText}>+91 9344613129</p>
               </div>
             </div>

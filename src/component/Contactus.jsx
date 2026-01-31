@@ -500,15 +500,15 @@
 //         <div className="location-card">
 //           <h4>Mahe</h4>
 //           <div className="contact-row">
-//             <img src="src/assets/icons8-location-96.png" alt="Location" />
+//             <img src="public/assets/icons8-location-96.png" alt="Location" />
 //             <p>Anandam realty, palloor, Mahe - 673310</p>
 //           </div>
 //           <div className="contact-row">
-//             <img src="src/assets/icons8-email-24.png" alt="Email" />
+//             <img src="public/assets/icons8-email-24.png" alt="Email" />
 //             <p>hybridcloudinfo@gmail.com</p>
 //           </div>
 //           <div className="contact-row">
-//             <img src="src/assets/icons8-phone-50.png" alt="Phone" />
+//             <img src="public/assets/icons8-phone-50.png" alt="Phone" />
 //             <p>+91 9344613129</p>
 //           </div>
 //         </div>
@@ -516,7 +516,7 @@
 //         {/* Footer Section */}
 //         <div className="footer">
 //           <div className="footer-col">
-//             <img src="src/assets/hybrid.svg" alt="Hybrid Cloud" />
+//             <img src="public/assets/hybrid.svg" alt="Hybrid Cloud" />
 //             <p>
 //               At Hybrid Cloud, your trusted tech education hub in Mahe, we
 //               provide personalized, hands-on training in AWS, Azure, Google
@@ -552,15 +552,15 @@
 //             <div className="footer-help">
 //               <h4>Mahe</h4>
 //               <div className="footer-contact-row">
-//                 <img src="src/assets/icons8-location-96.png" alt="Location" />
+//                 <img src="public/assets/icons8-location-96.png" alt="Location" />
 //                 <p>Anandam realty, palloor, Mahe - 673310</p>
 //               </div>
 //               <div className="footer-contact-row">
-//                 <img src="src/assets/icons8-email-24.png" alt="Email" />
+//                 <img src="public/assets/icons8-email-24.png" alt="Email" />
 //                 <p>hybridcloudinfo@gmail.com</p>
 //               </div>
 //               <div className="footer-contact-row">
-//                 <img src="src/assets/icons8-phone-50.png" alt="Phone" />
+//                 <img src="public/assets/icons8-phone-50.png" alt="Phone" />
 //                 <p>+91 9344613129</p>
 //               </div>
 //             </div>
@@ -837,15 +837,15 @@ const Contactus = () => {
         <div className="location-card">
           <h4>Mahe</h4>
           <div className="contact-row">
-            <img src="src/assets/icons8-location-96.png" alt="Location" />
+            <img src="public/assets/icons8-location-96.png" alt="Location" />
             <p>Anandam realty, palloor, Mahe - 673310</p>
           </div>
           <div className="contact-row">
-            <img src="src/assets/icons8-email-24.png" alt="Email" />
+            <img src="public/assets/icons8-email-24.png" alt="Email" />
             <p>hybridcloudinfo@gmail.com</p>
           </div>
           <div className="contact-row">
-            <img src="src/assets/icons8-phone-50.png" alt="Phone" />
+            <img src="public/assets/icons8-phone-50.png" alt="Phone" />
             <p>+91 9344613129</p>
           </div>
         </div>
@@ -857,7 +857,7 @@ const Contactus = () => {
         <div style={styles.footerContainer}>
           {/* About */}
           <div style={{ ...styles.footerColumn, ...styles.aboutColumn }}>
-            <img src="src/assets/hybrid.svg" alt="Hybrid Cloud Logo" style={styles.footerLogo} />
+            <img src="public/assets/hybrid.svg" alt="Hybrid Cloud Logo" style={styles.footerLogo} />
             <p style={styles.footerDescription}>Hybrid Cloud offers hands-on training in AWS, Azure, Google Cloud, Java, Python, Terraform, Kubernetes, and more.</p>
           </div>
 
@@ -905,9 +905,9 @@ const Contactus = () => {
             <div style={styles.contactInfo}>
               <h4 style={styles.locationName}>Mahe</h4>
               {[
-                { icon: 'src/assets/icons8-location-96.png', text: 'Anandam realty, palloor, Mahe - 673310' },
-                { icon: 'src/assets/icons8-email-24.png', text: 'info@hybridcloud.com' },
-                { icon: 'src/assets/icons8-phone-50.png', text: '+91 9344613129' },
+                { icon: 'public/assets/icons8-location-96.png', text: 'Anandam realty, palloor, Mahe - 673310' },
+                { icon: 'public/assets/icons8-email-24.png', text: 'info@hybridcloud.com' },
+                { icon: 'public/assets/icons8-phone-50.png', text: '+91 9344613129' },
               ].map((item, idx) => (
                 <div
                   key={idx}
