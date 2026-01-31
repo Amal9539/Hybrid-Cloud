@@ -494,7 +494,10 @@ const Courses = () => {
         <div style={{ ...styles.footerColumn, ...styles.aboutColumn }}>
           <img src="assets/hybrid.svg" alt="Hybrid Cloud Logo" style={styles.footerLogo} />
           <p style={styles.footerDescription}>
-            Hybrid Cloud offers hands-on training in AWS, Azure, Google Cloud, Java, Python, Terraform, Kubernetes, and more.
+            At Hybrid Cloud, your trusted tech education hub in Mahe, we provide personalized, 
+              hands-on training in AWS, Azure, Google Cloud, Java, Python, Terraform, Kubernetes, 
+              and more—blending real-world projects, expert mentorship, and certifications to launch 
+              your cloud career..
           </p>
         </div>
 
