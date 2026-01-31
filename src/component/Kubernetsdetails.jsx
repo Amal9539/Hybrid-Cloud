@@ -561,7 +561,7 @@ const KubernetesDetails = () => {
               <img src="assets/hybrid.svg" alt="Hybrid Cloud Logo" style={{
                 maxWidth: '180px',
                 marginBottom: '20px',
-                filter: 'brightness(0) invert(1)',
+                
               }} />
               <p style={{
                 fontSize: '0.95rem',
