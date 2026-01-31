@@ -1389,7 +1389,6 @@
 
 // export default Home;
 
-
 import React, { useState, useEffect } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import { Container } from 'react-bootstrap';
@@ -1900,9 +1899,10 @@ const Home = () => {
             bottom: 5px;
           }
           .carousel-indicators button {
-            width: 6px !important;
-            height: 6px !important;
+            width: 20px !important;
+            height: 3px !important;
             margin: 0 3px !important;
+            border-radius: 2px !important;
           }
         }
 
@@ -1931,28 +1931,27 @@ const Home = () => {
           }
         }
 
-        /* Better carousel indicators */
+        /* Better carousel indicators - RECTANGULAR STYLE */
         .carousel-indicators {
           bottom: 20px;
           z-index: 15;
         }
 
         .carousel-indicators button {
-          width: 12px;
-          height: 12px;
-          border-radius: 50%;
-          margin: 0 6px;
-          background-color: rgba(255, 255, 255, 0.6);
-          border: 2px solid rgba(255, 255, 255, 0.9);
+          width: 30px;
+          height: 4px;
+          border-radius: 2px;
+          margin: 0 4px;
+          background-color: rgba(255, 255, 255, 0.5);
+          border: none;
           transition: all 0.3s ease;
         }
 
         .carousel-indicators button.active {
           background-color: #f59e0b;
-          border-color: #f59e0b;
-          width: 16px;
-          height: 16px;
-          box-shadow: 0 0 10px rgba(245, 158, 11, 0.6);
+          width: 40px;
+          height: 4px;
+          box-shadow: 0 0 8px rgba(245, 158, 11, 0.6);
         }
 
         /* Smooth carousel item transitions */
