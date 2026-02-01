@@ -920,7 +920,7 @@ const GcloudDetails = () => {
                 onMouseLeave={() => setHoveredContact(null)}
               >
                 <img src="assets/icons8-email-24.png" alt="Email" style={footerStyles.contactIcon} />
-                <p style={footerStyles.contactText}>info@hybridcloud.com</p>
+                <p style={footerStyles.contactText}>hybridcloudinfo@gmail.com</p>
               </div>
 
               <div

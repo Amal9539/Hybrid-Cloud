@@ -106,8 +106,8 @@ const JavaDetails = () => {
     { name: 'Python Full Stack Training', href: '/python' },
     { name: 'Java Full Stack Training', href: '/java' },
     { name: 'Terraform Training', href: '/teraform' },
-     { name: 'Google Cloud Platform Training', href: '/google' },
-  { name: 'DevOps Training', href: '/devops' },
+    { name: 'Google Cloud Platform Training', href: '/google' },
+    { name: 'DevOps Training', href: '/devops' },
   ]
 
   const aboutLinks = [
@@ -709,7 +709,6 @@ const JavaDetails = () => {
                         ? { ...footerStyles.footerLink, ...footerStyles.footerLinkHovered }
                         : footerStyles.footerLink
                     }
-                    onMouseEnter={() => setHoveredLink(index)}
                     onMouseLeave={() => setHoveredLink(null)}
                   >
                     <span
@@ -793,7 +792,7 @@ const JavaDetails = () => {
                 onMouseLeave={() => setHoveredContact(null)}
               >
                 <img src="assets/icons8-email-24.png" alt="Email" style={footerStyles.contactIcon} />
-                <p style={footerStyles.contactText}>info@hybridcloud.com</p>
+                <p style={footerStyles.contactText}>hybridcloudinfo@gmail.com</p>
               </div>
 
               <div

@@ -415,7 +415,9 @@ const Devopsdetails = () => {
     { name: 'Kubernetes Training', href: '/kuber' },
     { name: 'Python Full Stack Training', href: '/python' },
     { name: 'Java Full Stack Training', href: '/java' },
-    { name: 'Terraform Training', href: '/teraform' }
+    { name: 'Terraform Training', href: '/teraform' },
+    { name: 'Google Cloud Platform Training', href: '/google' },
+    { name: 'DevOps Training', href: '/devops' },
   ];
 
   const aboutLinks = [
@@ -655,7 +657,7 @@ const Devopsdetails = () => {
                 onMouseLeave={() => setHoveredContact(null)}
               >
                 <img src="assets/icons8-email-24.png" alt="Email" style={styles.contactIcon} />
-                <p style={styles.contactText}>info@hybridcloud.com</p>
+                <p style={styles.contactText}>hybridcloudinfo@gmail.com</p>
               </div>
 
               {/* Phone */}

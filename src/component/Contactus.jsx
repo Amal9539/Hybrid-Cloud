@@ -790,7 +790,6 @@ const Contactus = () => {
                     <a
                       href={link.href}
                       style={hoveredLink === idx ? { ...styles.footerLink, ...styles.footerLinkHovered } : styles.footerLink}
-                      onMouseEnter={() => setHoveredLink(idx)}
                       onMouseLeave={() => setHoveredLink(null)}
                     >
                       <span style={hoveredLink === idx ? { ...styles.linkArrow, ...styles.linkArrowVisible } : styles.linkArrow}>→</span>
@@ -813,7 +812,6 @@ const Contactus = () => {
                     <a
                       href={link.href}
                       style={hoveredLink === idx + 10 ? { ...styles.footerLink, ...styles.footerLinkHovered } : styles.footerLink}
-                      onMouseEnter={() => setHoveredLink(idx + 10)}
                       onMouseLeave={() => setHoveredLink(null)}
                     >
                       <span style={hoveredLink === idx + 10 ? { ...styles.linkArrow, ...styles.linkArrowVisible } : styles.linkArrow}>→</span>

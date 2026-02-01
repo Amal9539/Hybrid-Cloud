@@ -611,7 +611,6 @@ const MADetails = () => {
                         ? { ...styles.footerLink, ...styles.footerLinkHovered }
                         : styles.footerLink
                     }
-                    onMouseEnter={() => setHoveredLink(index)}
                     onMouseLeave={() => setHoveredLink(null)}
                   >
                     <span
@@ -697,7 +696,7 @@ const MADetails = () => {
                 onMouseLeave={() => setHoveredContact(null)}
               >
                 <img src="assets/icons8-email-24.png" alt="Email" style={styles.contactIcon} />
-                <p style={styles.contactText}>info@hybridcloud.com</p>
+                <p style={styles.contactText}>hybridcloudinfo@gmail.com</p>
               </div>
 
               {/* Phone */}

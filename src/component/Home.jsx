@@ -1418,7 +1418,7 @@ const Home = () => {
     { name: 'Python Full Stack Training', href: '/python' },
     { name: 'Java Full Stack Training', href: '/java' },
     { name: 'Terraform Training', href: '/teraform' },
-    { name: 'Google Cloud Platform Training', href: '/gcp' },
+    { name: 'Google Cloud Platform Training', href: '/google' },
     { name: 'DevOps Training', href: '/devops' },
   ];
 
@@ -2268,7 +2268,7 @@ At Hybrid Cloud, your trusted tech education hub in Mahe, we provide personalize
                   style={styles.contactIcon} 
                   alt="Email" 
                 />
-                <p style={styles.contactText}>info@hybridcloud.com</p>
+                <p style={styles.contactText}>hybridcloudinfo@gmail.com</p>
               </div>
               <div style={styles.contactItem}>
                 <img 

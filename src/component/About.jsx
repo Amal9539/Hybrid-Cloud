@@ -525,7 +525,7 @@ const About = () => {
     { name: 'Python Full Stack Training', href: '/python' },
     { name: 'Java Full Stack Training', href: '/java' },
     { name: 'Terraform Training', href: '/teraform' },
-    { name: 'Google Cloud Platform Training', href: '/gcp' },
+    { name: 'Google Cloud Platform Training', href: '/google' },
     { name: 'DevOps Training', href: '/devops' },
   ];
   
@@ -1054,7 +1054,6 @@ const About = () => {
                   <a
                     href={link.href}
                     style={hoveredLink === idx ? { ...styles.footerLink, ...styles.footerLinkHovered } : styles.footerLink}
-                    onMouseEnter={() => setHoveredLink(idx)}
                     onMouseLeave={() => setHoveredLink(null)}
                   >
                     <span style={hoveredLink === idx ? { ...styles.linkArrow, ...styles.linkArrowVisible } : styles.linkArrow}>→</span>
@@ -1077,7 +1076,6 @@ const About = () => {
                   <a
                     href={link.href}
                     style={hoveredLink === idx + 10 ? { ...styles.footerLink, ...styles.footerLinkHovered } : styles.footerLink}
-                    onMouseEnter={() => setHoveredLink(idx + 10)}
                     onMouseLeave={() => setHoveredLink(null)}
                   >
                     <span style={hoveredLink === idx + 10 ? { ...styles.linkArrow, ...styles.linkArrowVisible } : styles.linkArrow}>→</span>
@@ -1098,7 +1096,7 @@ const About = () => {
               <h4 style={styles.locationName}>Mahe</h4>
               {[
                 { icon: 'assets/icons8-location-96.png', text: 'Anandam realty, palloor, Mahe - 673310' },
-                { icon: 'assets/icons8-email-24.png', text: 'info@hybridcloud.com' },
+                { icon: 'assets/icons8-email-24.png', text: 'hybridcloudinfo@gmail.com' },
                 { icon: 'assets/icons8-phone-50.png', text: '+91 9344613129' },
               ].map((item, idx) => (
                 <div

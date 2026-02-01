@@ -727,7 +727,7 @@ const KubernetesDetails = () => {
                     marginTop: '2px',
                   }} />
                   <p style={{ margin: '0', color: '#cbd5e0', fontSize: '0.95rem', lineHeight: '1.6' }}>
-                    info@hybridcloud.com
+                    hybridcloudinfo@gmail.com
                   </p>
                 </div>
 
