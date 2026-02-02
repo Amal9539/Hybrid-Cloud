@@ -35,7 +35,7 @@ function App() {
       <Route path='/contactus' element={<Contactus/>}></Route>
       <Route path='/cources' element={<Cources/>}></Route>
       <Route path='/azure' element={<MADetails/>}></Route>
-      <Route path='/amazone' element={<AwdDetails/>}></Route>
+      <Route path='/amazon' element={<AwdDetails/>}></Route>
       <Route path='/google' element={<GcloudDetails/>}></Route>
       <Route path='/java' element={<JavaDetails/>}></Route>
       <Route path='/python' element={<Pythondetails/>}></Route>

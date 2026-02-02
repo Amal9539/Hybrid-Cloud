@@ -426,7 +426,7 @@ const AwdDetails = () => {
   };
 
   const courseLinks = [
-    { name: 'AWS Certification Training', href: '/amazone' },
+    { name: 'AWS Certification Training', href: '/amazon' },
     { name: 'Azure Certification Training', href: '/azure' },
     { name: 'Kubernetes Training', href: '/kuber' },
     { name: 'Python Full Stack Training', href: '/python' },

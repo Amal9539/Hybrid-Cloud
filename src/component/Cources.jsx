@@ -30,7 +30,7 @@
 //           Duration :50hr<br/>
 //           Mode of Training:Online
 //         </Card.Text>
-//         <Link to="/amazone" className="btn btn-primary mb-3">
+//         <Link to="/amazon" className="btn btn-primary mb-3">
 //           Get Cource Details
 //         </Link>
 //       </Card.Body>
@@ -195,7 +195,7 @@ const Courses = () => {
       title: 'AWS Certificate Training',
       duration: '50hr',
       image: 'assets/aws.webp',
-      link: '/amazone'
+      link: '/amazon'
     },
     {
       title: 'Google Cloud Platform Training',
@@ -235,7 +235,7 @@ const Courses = () => {
     }
   ];
   const courseLinks = [
-    { name: 'AWS Certification Training', href: '/amazone' },
+    { name: 'AWS Certification Training', href: '/amazon' },
     { name: 'Azure Certification Training', href: '/azure' },
     { name: 'Kubernetes Training', href: '/kuber' },
     { name: 'Python Full Stack Training', href: '/python' },
