@@ -33,7 +33,7 @@ function App() {
       <Route path='/' element={<Home/>}></Route>
       <Route path='/about' element={<About/>}></Route>
       <Route path='/contactus' element={<Contactus/>}></Route>
-      <Route path='/cources' element={<Cources/>}></Route>
+      <Route path='/courses' element={<Cources/>}></Route>
       <Route path='/azure' element={<MADetails/>}></Route>
       <Route path='/amazon' element={<AwdDetails/>}></Route>
       <Route path='/google' element={<GcloudDetails/>}></Route>

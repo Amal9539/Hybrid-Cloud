@@ -53,7 +53,7 @@ const Navhct = () => {
             <Nav.Link href="#home" ><Link to={'/'} style={{textDecoration:"none",fontWeight:"bold"}}>Home</Link></Nav.Link>
             <Nav.Link href="#link"><Link to={'/about'} style={{textDecoration:"none" ,fontWeight:"bold"}}>About Us</Link></Nav.Link>
             <Nav.Link href="#link"><Link to={'/contactus'} style={{textDecoration:"none",fontWeight:"bold"}}>Contact Us</Link></Nav.Link>
-            <Nav.Link href="#link"><Link to={'/cources'} style={{textDecoration:"none",fontWeight:"bold"}}>Courses</Link></Nav.Link>
+            <Nav.Link href="#link"><Link to={'/courses'} style={{textDecoration:"none",fontWeight:"bold"}}>Courses</Link></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
